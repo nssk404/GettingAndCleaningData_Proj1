@@ -8,12 +8,12 @@ The code in this repo collects the data from the UCI Machine Learning Repository
 
 ### What was done in the cleanup 
 
-The run_analysis.R script does the following things.
-1. Merges the training and the test sets to create one data set.
-2. Extracts only the measurements on the mean and standard deviation for each measurement. 
-3. Uses descriptive activity names to name the activities in the data set
-4. Appropriately labels the data set with descriptive activity names. 
-5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
+The run_analysis.R script does the following things.  
+1. Merges the training and the test sets to create one data set.  
+2. Extracts only the measurements on the mean and standard deviation for each measurement.   
+3. Uses descriptive activity names to name the activities in the data set.  
+4. Appropriately labels the data set with descriptive activity names.   
+5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.   
 
 ### Running the Script
 The R Script will download the data in the current directory to a data.zip file. Unzip the file and read the data from there.
